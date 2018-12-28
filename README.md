@@ -1,1 +1,3 @@
-# alexmukha.github.io
+# Responsive-Portfolio
+This is a media responsive project
+Completed to the best of my ability and time.
