@@ -1,67 +1,216 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Basic Portfolio</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link href="./assets/CSS/style.css" type="text/css" rel="stylesheet">
-    <link rel="icon" href="./assets/Images/am_icon.png" sizes="16x16">
-</head>
-<body>
-    <div class="navBarBg">
-        <div class="box">
-            <div class="container">
-                <header class="col-sm-12">
-                    <div class="title1">
-                        <div class="title2">
-                            <h1>
-                                <a href="#">Alex Mukha</a>
-                            </h1>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Alex Mukha | Portfolio</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="description"/>
+        <meta content="" name="author"/>
+
+        <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="./font/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <style>
+        .fa-3x {
+            padding-right: 15px;
+            cursor: pointer;
+            color: white;
+        }
+        </style>
+
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+   </head>
+
+    <body id="body" data-spy="scroll" data-target=".header">
+        <header class="header navbar-fixed-top">
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <div class="collapse navbar-collapse nav-collapse">
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav navbar-nav-right">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#portfolio">Portfolio</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
+                            </ul>
                         </div>
                     </div>
-                    <nav id="nav" class="m-0 nav">
-                        <ul id="navul">
-                            <li class="liFirst"><a href="#">About Me</a></li>
-                            <li class="liFirst"><a href="./portfolio.html">Portfolio</a></li>
-                            <li class="liLast"><a href="./contact.html">Contact</a></li>
-                        </ul>
-                    </nav>
-                </header>
-                <div class="spacer1">
                 </div>
-                <main>
-                    <div class="contenthead">
-                        <h1>About Me</h1>
+            </nav>
+        </header>
+
+        <div class="promo-block parallax-window" data-parallax="scroll" data-image-src="img/BinaryGrn.gif">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="promo-block-divider">
+                            <h1 class="promo-block-title">Alex <br/> Mukha</h1>
+                            <p class="promo-block-text">Full Stack Web developer(in progress)</p>
+                        </div>
+                        <ul class="list-inline">
+                            <li><a href="https://www.linkedin.com/in/alex-mukha-922458175/" target="_blank"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a></li>
+                            <li><a href="https://github.com/alexmukha" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a></li>
+                        </ul>
                     </div>
-                    <div class="contentbody">
-                        <img id="imgMain" src="./assets/Images/me.jpg" alt="My Animation">
-                        <p class="">
-                            I am a positive individual with a very curious personality. For some, working with computers is not
-                            always a fun task but for me it is an enjoyable activity, especially when I’m getting involved with
-                            something that leads me in the depth of the computer code, whether it is a simple HTML or something
-                            complex like C++. Recently I have enrolled myself in a coding bootcamp in order to fulfill my
-                            long-time desire to grasp the magic behind the mysterious lines of code consisting of many commands
-                            with lots of different brackets and other characters. I am very much enjoying attending classes and
-                            every time looking forward to attend another one.
-                        </p>
-                        <p>
-                            My other passion is cars. I always try to be on top of the new developments in the automobile
-                            industry especially with the way technology is progressing. I consider that a current decade is
-                            revolutionary in the vehicle adversity and that we have moved a giant leap in the technology that
-                            lets us enjoy the ability to enjoy our personal transportation. And the fact that automobiles are
-                            getting suited up with computers makes it that much more interesting for me personally.
-                        </p>
-                    </div>
-                    </main>
+                </div>
             </div>
         </div>
-    </div>
-    <footer>
-        <div class="bottom">
-        Copyright &copy;
+
+        <div id="about">
+            <div class="container content-lg">
+                <div class="row section-seperator">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <div class="text-right sm-text-left">
+                            <h2 class="margin-b-0">About me</h2>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <div class="margin-b-60">
+                            <p>My name is Alex Mukha</p>
+                            <p>Althogh I never had a career in coding, I was always fascinated by it.</p>
+                            <p>Before this time I was concintrated on supporting my family and did not have an opportunity to reach for my dreams.</p>
+                            <p>In past I've tried to educate myself in World Wide Web environment and became familiar with HTML, PHP, some JavaScript and even MySQL.</p>
+                            <p>Last year I found out about this wonderful coding bootcamp and now I am very excited to attend clasess at UC Davis Extensions.</p>
+                         </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-    </footer>
-</body>
+        <div id="portfolio">
+            <div class="bg-color-sky-light" data-auto-height="true">
+                <div class="container content-lg">
+                    <div class="row margin-b-40">
+                        <div class="col-sm-6">
+                            <h2>Portfolio</h2>
+                            <p>Here are some of my interesting projects that I've worked on.</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-9 col-sm-offset-1">
+                            <div class="row row-space-2 margin-b-4">
+                                <div class="col-md-4 md-margin-b-4">
+                                    <div class="service" data-height="height" style="height: 377px;">
+                                        <div class="service-element">
+                                            <i class="service-icon icon-chemistry"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3>Travel Group Project</h3>
+                                            <p class="margin-b-5">CSS, JavaScript, APIs</p>
+                                        </div>   
+                                    </div>
+                                </div>
+                                <div class="col-md-4 md-margin-b-4">
+                                    <div class="service bg-color-base wow zoomIn animated" data-height="height" data-wow-duration=".3" data-wow-delay=".1s" style="height: 377px; visibility: visible; animation-delay: 0.1s;">
+                                        <div class="service-element">
+                                            <i class="service-icon color-white icon-screen-tablet"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3 class="color-white">Crystal collector</h3>
+                                            <p class="color-white margin-b-5">JavaScript</p>
+                                        </div>   
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service" data-height="height" style="height: 377px;">
+                                        <div class="service-element">
+                                            <i class="service-icon icon-badge"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3>GIF-Tastic</h3>
+                                            <p class="margin-b-5">JS, API</p>
+                                        </div>   
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-space-2 margin-b-4">
+                                <div class="col-md-4 md-margin-b-4">
+                                    <div class="service" data-height="height" style="height: 377px;">
+                                        <div class="service-element">
+                                            <i class="service-icon icon-chemistry"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3>Trivia Game</h3>
+                                            <p class="margin-b-5">JS, API</p>
+                                        </div>   
+                                    </div>
+                                </div>
+                                <div class="col-md-4 md-margin-b-4">
+                                    <div class="service" data-height="height" style="height: 377px;">
+                                        <div class="service-element">
+                                            <i class="service-icon icon-chemistry"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3>Crystal collector</h3>
+                                            <p class="margin-b-5">JS, CSS</p>
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service" data-height="height" style="height: 377px;">
+                                        <div class="service-element">
+                                            <i class="service-icon icon-badge"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3>Train Schedule</h3>
+                                            <p class="margin-b-5">Bootstrap, JS, Firebase</p>
+                                        </div>  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="container content-lg">
+                <div class="row section-seperator">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <div class="text-right sm-text-left">
+                            <h2 class="margin-b-0">Contact me</h2>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <div class="margin-b-60">
+                            <div class="container table pb-2">
+                                <form name="contact" action="./thankyou.html" method="POST" target="_self">
+                                    <div class="form-group">
+                                        <label for="exampleInputName1">Your name</label>
+                                        <input type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp"
+                                            placeholder="Enter your name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                            placeholder="Enter your email" required>
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                            else.</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">Enter your message here</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" required></textarea>
+                                    </div>
+                                    <button type="reset" class="btn btn-primary mr-2">Clear</button>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/layout.min.js" type="text/javascript"></script>
+
+    </body>
 </html>
