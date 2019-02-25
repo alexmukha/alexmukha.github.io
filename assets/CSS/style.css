@@ -62,7 +62,7 @@ header {
 
 .title2 {
     background: #4aaaa5;
-    color: #ffffff;
+    color: #ffffff !important;
     font-weight: bold;
     max-width: 640px;
 }
@@ -288,7 +288,7 @@ header {
 }
 
 .title2 {
-    color: #ffffff;
+    color: #ffffff !important;
     font-weight: bold;
     margin: 20px;
     
@@ -504,7 +504,7 @@ header {
 }
 
 .title2 {
-    color: #ffffff;
+    color: #ffffff !important;
     font-weight: bold;
     margin: 20px;
     
@@ -718,7 +718,7 @@ header {
 }
 
 .title2 {
-    color: #ffffff;
+    color: #ffffff !important;
     font-weight: bold;
     margin: 20px;
     
