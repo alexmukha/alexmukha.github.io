@@ -396,25 +396,29 @@ fieldset[disabled] .btn-theme {
 }
 
 .service {
-    background: #fff;
-    padding: 30px
+    /* background: #fff; */
+    border: rgb(158, 181, 252, .5) solid 1px;
+    padding: 10px;
+    border-radius: 7px;
 }
 
 .service .service-element,
 .service .service-info {
+    padding: 0 0 0 10px;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
-    transition-duration: .3s;
-    transition-property: all;
-    transition-timing-function: cubic-bezier(.7, 1, .7, 1)
+    /* transition-duration: .3s; */
+    /* transition-property: all; */
+    /* transition-timing-function: cubic-bezier(.7, 1, .7, 1); */
+    /* border: 1px solid; */
 }
 
 .service .service-icon {
     display: block;
     font-size: 30px;
     color: #999caa;
-    margin-bottom: 30px
+    margin-bottom: 40px
 }
 
 .service:hover .service-element {
@@ -428,12 +432,39 @@ fieldset[disabled] .btn-theme {
 }
 
 .service:hover .service-info {
-    -webkit-transform: translate3d(0, -30%, 0);
-    -moz-transform: translate3d(0, -30%, 0);
-    transform: translate3d(0, -30%, 0);
+    -webkit-transform: translate3d(0, -35%, 0);
+    -moz-transform: translate3d(0, -35%, 0);
+    transform: translate3d(0, -35%, 0);
     transition-duration: .3s;
     transition-property: all;
-    transition-timing-function: cubic-bezier(.7, 1, .7, 1)
+    transition-timing-function: cubic-bezier(.7, 1, .7, 1);
+    padding-bottom: 40px;
+}
+
+.project .portfolios {
+    margin-top: 60px;
+    color: #515769;
+    background-color: rgb(255, 255, 255, .6);
+    /* border-radius: -5%; */
+    border-radius: 7px;
+    
+}
+
+.project:hover .portfolios {
+    /* background-color: #515769; */
+    background-color: rgb(255, 255, 255, 1);
+    color: rgb(255, 255, 255, 1)!important;
+    /* border-radius: 5%; */
+    /* border-radius: 25px; */
+
+}
+
+.me {
+    width: 250px;
+    height: 250px;
+background-image: url(../img/me.jpg);
+background-size: 250px;
+border-radius: 10px;
 }
 
 .work {
@@ -1011,7 +1042,68 @@ fieldset[disabled] .btn-theme {
     .container-sm {
         width: 750px
     }
+    
+    .bg-proj1{
+        background: #999caa;
+        background-image: url("../img/ProjectOne.jpg");
+        background-size: 100%;
+    }
+
+    .bg-wrd-guess-bg {
+        /* background: #999caa; */
+        background-image: url("../img/GuessGame1.jpg");
+        background-size: 108%;
+        border-radius: 7px;
+    }
+
+    .bg-wrd-guess {
+    /* background: #999caa; */
+    /* background-image: url("../img/GuessGame1.jpg"); */
+    background-image: url("../img/WordGuessing.gif");
+    background-size: 108%;
+    background-repeat: no-repeat;
+    background-position-x: center;
 }
+    
+.bg-gif {
+    background: #999caa;
+    background-image: url("../img/GifTastic-1.gif");
+    background-size: 148%;
+    background-position: center top -2px;
+}
+
+.bg-trivia {
+    background: #999caa;
+    background-image: url("../img/Trivia.jpg");
+    background-size: 100%;
+    background-position: center top -2px;
+}
+
+.bg-crystal {
+    background: #999caa;
+    background-image: url("../img/Crystals.jpg");
+    background-size: 100%;
+}
+
+.bg-train {
+    background: #999caa;
+    background-image: url("../img/train.jpg");
+    background-size: 100%;
+}
+
+.bg-crypto {
+    background: #999caa;
+    background-image: url("../img/crypto.jpg");
+    background-size: 100%;
+}
+
+.bg-burger {
+    background: #999caa;
+    background-image: url("../img/Burger.jpg");
+    background-size: 100%;
+}
+
+} 
 
 @media (min-width:1200px) {
     .container-sm {
@@ -1249,6 +1341,58 @@ fieldset[disabled] .btn-theme {
     .md-text-right {
         text-align: right
     }
+    
+    .bg-proj1{
+        background: #999caa;
+        background-image: url("../img/ProjectOne.jpg");
+        background-size: 100%;
+    }
+
+.bg-wrd-guess {
+    /* background: #999caa; */
+    background-image: url("../img/WordGuessing.gif");
+    background-size: 108%;
+    background-position-x: center;
+}
+
+.bg-gif {
+    background: #999caa;
+    background-image: url("../img/GifTastic-1.gif");
+    background-size: 147%;
+    background-position: center top -1px;
+}
+
+.bg-trivia {
+    background: #999caa;
+    background-image: url("../img/Trivia.jpg");
+    background-size: 100%;
+    background-position: center top -2px;
+}
+
+.bg-crystal {
+    background: #999caa;
+    background-image: url("../img/Crystals.jpg");
+    background-size: 100%;
+}
+
+.bg-train {
+    background: #999caa;
+    background-image: url("../img/train.jpg");
+    background-size: 100%;
+}
+
+.bg-crypto {
+    background: #999caa;
+    background-image: url("../img/crypto.jpg");
+    background-size: 100%;
+}
+
+.bg-burger {
+    background: #999caa;
+    background-image: url("../img/Burger.jpg");
+    background-size: 100%;
+}
+
 }
 
 @media (max-width:768px) {
