@@ -48,6 +48,23 @@ span {
     font-family: Hind, sans-serif
 }
 
+.icon i {
+    opacity: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 10px; */
+    color: #000000;
+    font: #000000;
+}
+
+.project:hover i {
+    opacity: 1;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .header .nav-item-hover:after,
 .link:after,
 .work .work-overlay:before {
@@ -442,6 +459,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .project .portfolios {
+    text-align: center;
     margin-top: 60px;
     color: #515769;
     background-color: rgb(255, 255, 255, .6);
@@ -1103,6 +1121,12 @@ border-radius: 10px;
     background-size: 100%;
 }
 
+.bg-scrape {
+    background: #999caa;
+    background-image: url("../img/NYScraper.jpg");
+    background-size: 100%;
+}
+
 } 
 
 @media (min-width:1200px) {
@@ -1393,6 +1417,11 @@ border-radius: 10px;
     background-size: 100%;
 }
 
+.bg-scrape {
+    background: #999caa;
+    background-image: url("../img/NYScraper.jpg");
+    background-size: 100%;
+}
 }
 
 @media (max-width:768px) {
