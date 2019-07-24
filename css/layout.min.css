@@ -49,6 +49,7 @@ span {
 }
 
 .icon i {
+    font-size: 4em;
     opacity: 0;
     text-align: center;
     margin-left: auto;
@@ -477,10 +478,18 @@ fieldset[disabled] .btn-theme {
 
 }
 
+.mes {
+    width: 250px;
+    height: 250px;
+background-image: url(../img/MyEmoji_2s.jpg);
+background-size: 250px;
+border-radius: 10px;
+}
+
 .me {
     width: 250px;
     height: 250px;
-background-image: url(../img/me.jpg);
+background-image: url(../img/MyEmoji_2.gif);
 background-size: 250px;
 border-radius: 10px;
 }
