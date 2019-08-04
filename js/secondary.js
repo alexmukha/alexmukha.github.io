@@ -6,8 +6,9 @@ console.log(ptitle);
 gtag('js', new Date());
 gtag('config', 'UA-144720985-1');
 gtag('send', {
-    title: ptitle,
     hitType: 'pageview',
-    page: location.pathname
+    title: ptitle,
+    page: location.pathname,
+    location: location.pathname
   });
 };
