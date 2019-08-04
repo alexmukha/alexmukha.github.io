@@ -5,5 +5,9 @@ function gtag(){dataLayer.push(arguments);}
 console.log(ptitle); 
 gtag("js", new Date());
 gtag("config", "UA-144720985-1");
-gtag("config", "pageview", location.pathname);
+gtag('send', {
+    hitType: 'pageview',
+    title: ptitle,
+    page: location.pathname
+  });
 };
