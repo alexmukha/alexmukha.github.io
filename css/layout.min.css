@@ -1069,6 +1069,12 @@ border-radius: 10px;
     .container-sm {
         width: 750px
     }
+
+    .generic-bg {
+        background: #999caa;
+        background-image: url("../img/html-code.jpg");
+        background-size: 100%;
+    }
     
     .bg-proj1{
         background: #999caa;
@@ -1373,6 +1379,12 @@ border-radius: 10px;
     }
     .md-text-right {
         text-align: right
+    }
+
+    .generic-bg {
+        background: #999caa;
+        background-image: url("../img/html-code.jpg");
+        background-size: 100%;
     }
     
     .bg-proj1{
