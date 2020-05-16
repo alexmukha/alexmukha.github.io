@@ -1075,6 +1075,18 @@ border-radius: 10px;
         background-image: url("../img/html-code.jpg");
         background-size: 100%;
     }
+
+    .booksearch {
+        background: #999caa;
+        background-image: url("../img/booksearch.jpg");
+        background-size: 100%;
+    }
+
+    .clicky {
+        background: #999caa;
+        background-image: url("../img/Clicky.jpg");
+        background-size: 100%;
+    }
     
     .bg-proj1{
         background: #999caa;
@@ -1384,6 +1396,18 @@ border-radius: 10px;
     .generic-bg {
         background: #999caa;
         background-image: url("../img/html-code.jpg");
+        background-size: 100%;
+    }
+
+    .booksearch {
+        background: #999caa;
+        background-image: url("../img/booksearch.jpg");
+        background-size: 100%;
+    }
+
+    .clicky {
+        background: #999caa;
+        background-image: url("../img/Clicky.jpg");
         background-size: 100%;
     }
     
